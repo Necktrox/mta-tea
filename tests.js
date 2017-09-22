@@ -1,5 +1,5 @@
 
-let tests = [
+var tests = [
     {
         text: "hello world",
         key: "obfuscated",
@@ -74,16 +74,16 @@ let tests = [
 
 const tea = require("./tea");
 
-let failed = false;
+var failed = false;
 
-for (let testcase of tests) {
-    let encoded = tea.encode(testcase.text, testcase.key);
+for (var testcase of tests) {
+    var encoded = tea.encode(testcase.text, testcase.key);
 
     if (encoded !== testcase.expected) {
         console.log(`Encoding failed:\n\tGot:      ${encoded}\n\tExpected: ${testcase.expected}\n\tText:     ${testcase.text}\n`);
         failed = true;
     } else {
-        let decoded = tea.decode(encoded, testcase.key);
+        var decoded = tea.decode(encoded, testcase.key);
 
         if (decoded !== testcase.text) {
             console.log(`Decoding failed:\n\tGot:      ${decoded}\n\tExpected: ${testcase.text}\n`);
