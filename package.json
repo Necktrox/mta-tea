@@ -1,0 +1,22 @@
+{
+  "name": "mta-tea",
+  "version": "1.0.0",
+  "description": "Tiny Encryption Algorithm (TEA) implementation compatible with the Multi Theft Auto (MTA) Lua scripting engine",
+  "main": "tea.js",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "keywords": [
+    "encryption",
+    "decryption",
+    "multitheftauto",
+    "mta",
+    "tea"
+  ],
+  "author": "Marek Kulik <marek.kulik@hotmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Necktrox/mta-tea.git"
+  }
+}
