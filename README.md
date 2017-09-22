@@ -1,4 +1,4 @@
-# mta-tea
+# mta-tea [![Build Status](https://img.shields.io/travis/Necktrox/mta-tea/master.svg?label=master)](https://travis-ci.org/Necktrox/mta-tea)
 Tiny Encryption Algorithm (TEA) implementation compatible with the Multi Theft Auto (MTA) Lua scripting engine.
 
 ## Installation
